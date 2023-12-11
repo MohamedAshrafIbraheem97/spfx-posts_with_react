@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
+    },
+    "posts-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/postsList/PostsListWebPart.js",
+          "manifest": "./src/webparts/postsList/PostsListWebPart.manifest.json"
+        }
+      ]
+    },
+    "posts-list-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/postsListReact/PostsListReactWebPart.js",
+          "manifest": "./src/webparts/postsListReact/PostsListReactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "PostsListWebPartStrings": "lib/webparts/postsList/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PostsListReactWebPartStrings": "lib/webparts/postsListReact/loc/{locale}.js"
+  }
+}

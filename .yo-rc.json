@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "onprem19",
+    "version": "1.10.0",
+    "libraryName": "mohamed-sp-fx-learning-v-2",
+    "libraryId": "2c2f845a-0d99-40c4-8947-ddbd1706dea9",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "mohamed-sp-fx-learning-v-2-client-side-solution",
+    "id": "2c2f845a-0d99-40c4-8947-ddbd1706dea9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/mohamed-sp-fx-learning-v-2.sppkg"
+  }
+}
